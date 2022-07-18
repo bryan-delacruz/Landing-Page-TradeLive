@@ -1,0 +1,51 @@
+@import url("./variables.css");
+
+/* CLASES UTILITARIAS */
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  color: var(--ligthColor);
+  border: none;
+  background: none;
+  border: solid 1px var(--ligthColor);
+  padding: 20px 25px;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: var(--primaryColor);
+  border: solid 1px var(--primaryColor);
+}
+
+.btn-ligth {
+  color: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
+}
+.btn-ligth:hover {
+  color: var(--ligthColor);
+}
+
+.btn-blue {
+  color: var(--ligthColor);
+  border: none;
+  background: var(--primaryColor);
+  border: solid 1px var(--primaryColor);
+  padding: 20px 25px;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-blue:hover {
+  background: var(--secundaryColor);
+  border: solid 1px var(--secundaryColor);
+}

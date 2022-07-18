@@ -1,0 +1,115 @@
+@import url("./variables.css");
+@import url("./general.css");
+@import url("./utility.css");
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  padding: 10px 50px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* FORMULARIO */
+
+.container-form-map {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.map {
+  width: 500px;
+}
+
+.form {
+  width: 400px;
+  padding: 30px 20px;
+  background-color: var(--bgColorGray);
+}
+
+.form h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.container-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: left;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container-input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: left;
+  flex-direction: column;
+  gap: 5px;
+}
+.container-input input {
+  outline: none;
+  border: none;
+  height: 30px;
+  padding: 0 10px;
+}
+
+.container-input input:focus {
+  border: 1px solid var(--primaryColor);
+}
+
+.container-input textarea {
+  outline: none;
+  border: none;
+  height: 120px;
+  padding: 10px 5px;
+}
+
+.container-input textarea:focus {
+  border: 1px solid var(--primaryColor);
+}
+
+/* APP */
+.app {
+  background-color: var(--bgColorGray);
+  padding-top: 50px;
+}
+.container-tittle {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.container-tittle h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  font-weight: 600;
+}
+.container-tittle p {
+  margin-bottom: 50px;
+}
+
+.container-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px 0;
+  margin-bottom: 50px;
+}
+
+.container-img img {
+  width: 30%;
+}
