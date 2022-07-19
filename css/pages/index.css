@@ -1,12 +1,12 @@
-@import url("./variables.css");
-@import url("./general.css");
-@import url("./utility.css");
+@import url("../variables.css");
+@import url("../general.css");
+@import url("../utility.css");
 
 /* HEADER */
 .header {
   color: var(--ligthColor);
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/header-img.jpg");
+    url("../../img/header-img.jpg");
   width: 100%;
   background-position: center;
   background-size: cover;

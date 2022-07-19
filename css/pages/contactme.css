@@ -1,6 +1,6 @@
-@import url("./variables.css");
-@import url("./general.css");
-@import url("./utility.css");
+@import url("../variables.css");
+@import url("../general.css");
+@import url("../utility.css");
 
 .container {
   max-width: 1280px;
