@@ -79,6 +79,11 @@
   border: 1px solid var(--primaryColor);
 }
 
+.btn-form {
+  margin-top: 20px;
+  width: 100%;
+}
+
 /* APP */
 .app {
   background-color: var(--bgColorGray);
